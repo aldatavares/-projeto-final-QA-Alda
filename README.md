@@ -24,18 +24,25 @@ Aprendi sobre os diferentes níveis de teste (unitário, integração, sistema),
 **Objetivo:** Testar endpoints CRUD em API real (JSONPlaceholder)  
 **Resultado esperado:** Todos os endpoints devem retornar status codes corretos  
 **Arquivo:** [testes/teste_01_api_alternativo.py](testes/teste_01_api_alternativo.py)
+Link teste 01  https://colab.research.google.com/drive/1JZ24PGhMa6PMQNvQijEP4tQsWcDG_Ed8#scrollTo=HwPx8dNtkV7G&line=1&uniqifier=1
+
 
 ### ✅ Teste 02 – Validação de Schema JSON
 **Biblioteca:** requests + jsonschema  
 **Objetivo:** Validar estrutura dos dados retornados pela API  
 **Resultado esperado:** Resposta deve corresponder exatamente ao schema definido  
 **Arquivo:** [testes/teste_02_validacao_schema.py](testes/teste_02_validacao_schema.py)
+Link teste 02 https://colab.research.google.com/drive/1JZ24PGhMa6PMQNvQijEP4tQsWcDG_Ed8#scrollTo=sWtGuyFiruAM&line=1&uniqifier=1
 
 ### ✅ Teste 03 – Teste de Performance
 **Biblioteca:** requests + time  
 **Objetivo:** Verificar tempo de resposta da API  
 **Resultado esperado:** Tempo < 1s e status 200  
 **Arquivo:** [testes/teste_03_performance.py](testes/teste_03_performance.py)
+Link testec 03 https://colab.research.google.com/drive/1JZ24PGhMa6PMQNvQijEP4tQsWcDG_Ed8#scrollTo=CZpGeOrDk5J-&line=1&uniqifier=1
+
+
+Meu notebook Colab. https://colab.research.google.com/drive/1JZ24PGhMa6PMQNvQijEP4tQsWcDG_Ed8?usp=sharing
 
 ## 6. Conclusão Final
 O aprendizado mais importante foi entender como os testes automatizados podem prevenir erros. Vejo QA como uma área essencial no desenvolvimento de software, e o que mais me chamou atenção foi a validação de schemas, por garantir a integridade dos dados retornados por APIs.
